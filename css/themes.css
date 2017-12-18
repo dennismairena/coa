@@ -430,7 +430,7 @@ padding:0;}
 body{height: 65px;}
 #wrapper>div>ul>li>iframe{height:200px;}
 #titulo2{background:#4DB7AD;}
-
+ #calendario{display:none; }
 }
 
 @media only screen and (min-width : 768px) {
@@ -440,9 +440,11 @@ top:60px;width:28px;height:18px;}
 .naveg{display: none;}
 .barra>img{width:15em;
   display:block;
-  position: relative;
+  position: relative;}
+  #rotar{display:none; }
+   #calendario{display:block; }
 
-}
+
 
 
 .barra>div{display: none;}
@@ -462,5 +464,6 @@ body{height: 90px;}
  #titulo2{background:#2297F7;}
 .con{max-width: 1000px;}
 .cir {display:none; }
+ #calendario{display:block; }
 }
 }
